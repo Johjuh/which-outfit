@@ -13,10 +13,23 @@
       </div>
       <button class="addOption">Add</button>
     </div>
+    <div class="resultSection"></div>
     <button class="goButton">Go!</button>
 <div>
     <img class="irc_mi" src="https://vg-images.condecdn.net/image/ZoGor7kMvMj/crop/405" alt="Bildresultat för fashion" onload="typeof google==='object'&amp;&amp;google.aft&amp;&amp;google.aft(this)" width="236" height="353" style="margin-top: 0px;">
   </center>
 </div>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script>
+$(function() {
+  $('.resultSection').hide()
+
+  var add_option = function() {
+    $('.inputs').append('<input></input>')
+  }
+
+  $('.addOption').click(add_option)
+})
+</script>
   </body>
 </html>
