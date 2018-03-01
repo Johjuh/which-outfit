@@ -39,6 +39,14 @@ input {
   margin-top: 10px;
 }
 
-.goButton {
+.resultSection {
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+}
+
+.submit {
   margin-bottom: 20px;
 }
